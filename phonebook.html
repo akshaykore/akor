@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AKOR - PhonBk</title>
+    <meta name="description" content="A context based device agnostic phonebook collaboration with Microsoft Research">
+    <meta name="keywords" content="Contacts, Phonebook, Call, Log, Visualization, Algorithm, Machine Learning, Grid, Personal Information Management, Dataviz, User Interface, User Experience, User Studies, Microinteraction, Affinity Mapping, Information Design, Big Data, Interaction Design, Application, Wireframe, Prototype, Wearable, Android, Phone, Wear, App, IITB, Bombay, Indian Institute of Technology ">
+    <meta name="author" content="Akshay Kore">
+    <link rel="shortcut icon" href="assets/logo/ico.ico">
+    <meta charset=utf-8 />
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Halant:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/loading.js"></script>
+    
+    
+</head>
+    
+<body>
+    <div id="loading"></div>
+    <div id="topbar" >
+        <div id="closeicon" onclick="introclose();">x</div>
+         <div id="introbase"><b>Akshay Kore</b> | Portfolio</div>    
+        <div id="introtitle">
+            <a id="introtype" href="index.html" >Work</a>
+            <a id="introtype" href="info.html#about">Info</a>
+        </div>
+        
+        
+        
+    </div>
+    <div id="controlpanel">
+        <div class="twelve columns" id="headerpart">
+        
+            <div class="six columns" onclick="introopen();">
+           
+                <div id="logoimage"  >
+                    <img src="assets/logo/logo.svg" height="30px" width="30px">
+                </div>
+                <div id="logotitle">
+                    AKOR
+                </div>
+                
+              
+        </div>
+             
+        
+    
+        <div class="six columns" >
+            <div id="maintabframe">
+                <a href="index.html" id="maintab" >Work</a>
+                <a id="maintab" href="info.html#about">Info</a> 
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="breadcrumbtab" class="twelve columns">
+        <a href="index.html" id="breadcrumb">Work >></a>
+        
+        <div id="breadcrumbdisable">PhonBk</div>
+        
+        
+    </div>
+        
+    
+    
+    
+    </div>
+   
+    
+    <div id="mainbody"></div>
+        
+     
+      
+        
+        
+        <div id="projectlinkdisable">Coming Soon</div>
+        
+        <div id="projecttitle">PhonBk</div>
+        <div id="projectcaption">A smarter context based phonebook for Mobile Devices in collaboration with Microsoft Research<br>Guide : Prof. Anirudha Joshi</div>
+    
+        <div id="fulltext" >
+            <div id="header2">Work in Progress (Too Long Do Read)</div>
+           These days, it is normal to have over 1000 contacts in a phonebook which include phone numbers, emails and other data. We are in touch with some of these contacts frequently. We use many others rarely. The current visualisation of the phonebook data is quite old, and is essentially based on a feature phone. This project is about creating a solution that makes use of high resolution touchscreens and  sensors in mobile devices to enhance the user experience. The term 'Mobile devices' has been loosely defined. The end solution is the design of a smarter phonebook that provides information about the most important contacts.
+    </div>
+   
+    <div id="fullimage">
+            <img src="assets/img/phonebook/image/image001.jpeg" width="100%">
+        </div>
+    
+    <div id="fulltext">
+            <div id="quotation">What is the most important contact right now?</div>
+        </div>
+    
+    <div id="textback">
+        <div id="fulltext">
+            <div id="header1">Design Problem</div>
+            The design of the phonebook has largely remained the same over the past years. Navigation and finding contacts is still based on Alphabetical Lists, Favorites, Call Logs and in some instances frequency based defaults. Our devices have become exponentially smarter, but not our phonebooks. 
+        </div>
+        
+            
+        
+        
+    <div id="fullimage">
+            <img src="assets/img/phonebook/image/image002.jpeg" width="100%">
+        </div>
+        
+        
+        
+        <div id="fulltext">
+            The following page shows different ideas and strategies that have the potential for making the Phonebook smarter. The ideas range from design of the User Interface to Designing algorithms, using machine learning techniques to solving navigation and User Experience problems.
+        </div>
+        <br>
+        <div id="fulltext">
+            <div id="header1">Pareto Principle : 80/20 Rule</div>
+            The Pareto principle states that out of all the available information, only about 20% of it is valuable. A number of studies suggest this to be true even in the case of contact management. Out of all the contacts in the phonebook, only a handful of contacts are important at any given point of time. This number generally ranges from 10 -20 contacts, however different studies suggest a different number. Overall, only around 20% of the contacts are important for the average person.
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image003.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            <div id="header1">Contact Information</div>
+            The smartphone has the potential of storing large amount of metadata for each contact as shown in the figure below. This opens a range of possibilities in design, prediction, learning and a number of other fields. The questions we then need to then ask are ethical rather than technical. 
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image004.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            <div id="header1">How to decide whether a contact is important ?</div>
+            
+            <div id="header2">Recency and Longevity</div>
+            The more recent the interaction, the more long term the interaction, the more important is the contact. Recency may indicate temporary importance while longevity indicates certain importance.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image005.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            <div id="header2">Bayesian Networks</div>
+            The importance of a particular contact may also depend on the current context of the user. Some contacts are important in certain locations, at certain times, often a combination of both. The importance may also depend on the closeness or relatedness of a contact to another contact. All this information can often be coupled with recency and longevity patterns to find out who is important to me right now. This data can be used to predict the most important contacts and visualize the same for the phonebook.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image006.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            The following figure indicates different types of contacts that may be important at different time durations in a 24 hour time span for a typical office goer.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image007.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            <div id="header2">How do people store contact information? - User Studies</div>
+            To find out patterns in contact storage, a user study was conducted with a group of users. There were certain repeating patterns found in the contacts storage. These were thought to be not very useful in the beginning. Different users stored the same contact with different names and information. One can however generate groups from the semantic structure of different contact names; an idea that will be explored later in the project.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image008.jpeg" width="100%">
+            <img src="assets/img/phonebook/image/image009.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            <div id="quotation">"Details are the design"</div>
+            
+        </div>
+        <br>
+        
+        <div id="fulltext">
+            <div id="header1">Design Ideas Version 1.0</div>
+            <div id="header2">Contextual Prediction Widget</div>
+            One of the ideas consists of creating a widget in the existing standard phonebook structure that predicts a set of contacts based on the context of the user. This idea mainly employs bayesian networks and machine learning to predict which contacts are most important currently. Different types of contacts would be predicted during the different times of the day.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image010.jpeg" width="100%">
+            <img src="assets/img/phonebook/image/image011.jpeg" width="100%">
+        </div>
+        
+        <div id="fulltext">
+            Additional features includes the contact view which shows contacts related to the particular contact and smart defaults (like sending a birthday wish) based on the contact's information.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image012.jpeg" width="100%">
+            <img src="assets/img/phonebook/image/image013.jpeg" width="100%">
+            <img src="assets/img/phonebook/image/image014.jpeg" width="100%">
+        </div>
+        <br>
+        <div id="fulltext">
+            <div id="quotation">"Design of the phonebook is a 5 Billion People problem. On a macro scale, saving a few seconds will save a few lifetimes."</div>
+        </div>
+        <br>
+         <div id="fulltext">
+             <div id="header1">Design Ideas Version 2.0 - Based on realistic data</div>
+             The ideas presented in the version 1.0 are based on secondary data and my intuition. However, on further heuristic evaluations, user studies and using realistic data from the my call and email log for a period of 3 months; patterns start emerging in the data. The following ideas tackle different issues of visualization, getting an overview, navigation problems etc.<br><br>
+            <div id="header2">Histogram View</div>
+            The very first thing I did on getting hands on the interaction data was to create a histogram. Different views were generated for the histogram. What if you could see your phonebook as a histogram ? What if navigation was done by means of a histogram ? What if it could show details of your interactions and based on the same create groups ? An algorithm similar to the MIT Media Lab's Immersion Project was used to generate the groups. <br>Although fun at the beginning, the design did not really solve any fundamental problems and was quickly discarded.
+            
+        </div>
+        
+         <div id="fullimage">
+            <img src="assets/img/phonebook/image/image015.jpeg" width="100%">
+        </div>
+        
+        
+        <div id="fulltext">
+            <div id="header2">Calendar View</div>
+            The 24hr prediction concept mentioned earlier was expanded into a calendar view. Navigation of contacts would be done through this month long / year long view. Similar views are available for visualizations generated by fitness applications (heart rate, sleep patterns etc.). This also was an interesting visualization idea and parts of it were thought to be useful. However, it is more of an added  micro-interaction in the existing phonebook rather than a full systemic design change.
+            
+        </div>
+        
+         <div id="fullimage">
+            <img src="assets/img/phonebook/image/image016.jpeg" width="100%">
+            <img src="assets/img/phonebook/image/image017.jpeg" width="100%">
+             
+        </div>
+        
+        <div id="fulltext">
+            <div id="header2">Finding contacts based on past experience</div>
+            How many times does it happen that you are trying to find a contact you saved (or worse, you did not save!), but you forget the name. You probably know other information like when had you called the contact, where you were when you called, who else did you call. In short, you know the context of the call. This idea proposes an additional navigation of the phonebook by means of filters (date, time, people, location, day). Concepts from previous design ideas may be borrowed. This idea can be explained better by means of scenarios. The scenarios describe the problem and the graphic describes the possible solutions. <br><br>
+            Scenario 1: Search based on person/s<br> If I have to search for placement related mails. I will do a search of Atul, who is the placement manager along with Jayati who is the placement coordinator.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image018.jpeg" width="100%">
+             
+        </div>
+        
+        <div id="fulltext">
+            Scenario 2: Search based on day and time<br> I had called the Dhobi on a day before my birthday between 12-2 pm. I do not have the Dhobi’s Number and urgently need it.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image019.jpeg" width="100%">
+             
+        </div>
+        
+        <div id="fulltext">
+            Scenario 3: Search based on People/s, Date Range, Day, Time<br> Tapan had called me to give his clothes to the Dhobi between 4-5 am some 2 weeks back. I called the Dhobi between 12-2 pm on the same day. I do not have the Dhobi’s number and urgently need it.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image020.jpeg" width="100%">
+             
+        </div>
+        
+        <div id="fulltext">
+            The solution proposed is an advanced filter. Additional filters of location data may be added. The way in which a contact is found would depend on the type of user. It is very well possible that a user scrolls endlessly till he finds the needed contact. However I believe that even though simple things should be simple, complex actions need to be possible.
+            <br><br>
+        </div>
+        
+        <div id="fulltext">
+            <div id="header2">Predicting the next important contact</div>
+            This idea derives inspiration from the Phoneman paper where you predict the next possible action after the current action. For example, after using the phonebook the next action would probably be using the calendar or creating a reminder. In similar fashion, the contact data reveals patterns in calling certain individuals. After calling a specific person, I am prone to make the next call / interaction with a specific group of people. This data can be used to predict and suggest the next possible contact.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image021.jpeg" width="100%">
+             
+        </div>
+        
+        <div id="fulltext">
+            <div id="header2">Contacts Grid</div>
+           A friend of mine with a generic name (Akshay, Sagar, Prasad etc.) recently told me that whenever his father wants to call him he has to type the son's name completely since there are a lot of people with the same name. The following idea germinates from this problem. It consists of a simple grid of alphabets for navigation. On selecting a particular alphabet, the screen shows a grid of people with names starting (this is given preference) or containing the alphabet with the alphabet. The size of each element in the grid is determined by the importance of the contact based of frequency, recency and longevity patterns discussed earlier.
+            
+        </div>
+        
+        <div id="fullimage">
+            <img src="assets/img/phonebook/image/image022.jpeg" width="100%">
+            <img src="assets/img/phonebook/image/image023.jpeg" width="100%">
+             
+        </div>
+        
+        
+    </div>  
+    
+    <div id="fulltext">
+        <br>
+            <div id="header1">Future work</div>
+           The following project is a work in progress. Future considerations for this project include making the contact book responsive to different types of devices. What happens when you have to visualize contacts on devices with very small screen real estate like wearables. <br>
+        
+        Next update in May 2016.
+            
+        </div>
+    
+    <div id="fullimage">
+            <img src="assets/img/phonebook/image/image024.jpeg" width="100%">
+             
+        </div>
+        
+    
+    
+        
+   
+   
+    
+    <br>
+    
+    <div id="fulltext">
+            <div id="header1">Tags</div>
+            Contacts, Phonebook, Call, Log, Visualization, Algorithm, Machine Learning, Grid, Personal Information Management, Dataviz, User Interface, User Experience, User Studies, Microinteraction, Affinity Mapping, Information Design, Big Data, Interaction Design, Application, Wireframe, Prototype, Wearable, Android, Phone, Wear, App, IITB, Bombay, Indian Institute of Technology 
+        </div>
+    
+    
+    <br>
+        <a href="mumbaidata.html" id="breadcrumb"><< Previous</a>
+        <a href="drs.html" id="breadcrumb">Next >></a>
+    
+    <br><br>
+    <a id="breadcrumb" style="font-size: 0.3em;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+    This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Akshay Kore is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License</a>
+    
+    <div id="beforefooter"></div>
+    
+    <div id="footermain" class="twelve columns">
+        <div id="footerleft" class="six columns">
+            © Akshay Kore
+        </div>
+        <div id="footerright" class="six columns">
+            Share
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//akshaykore.github.io/akor/phonebook.html" id="shareicon" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+            <a href="https://twitter.com/home?status=check%20out%20%40akshaykore%20's%20awesome%20work%20http%3A//akshaykore.github.io/akor/phonebook.html" id="shareicon" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+            
+        </div>
+    </div>
+    
+    
+    <script>introclose();</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68980259-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        
+        
+</body>
+    
+</html>

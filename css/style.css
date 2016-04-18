@@ -1,0 +1,648 @@
+
+
+.selecticon 
+{   font-size: 1.5rem; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #bababa; 
+    display: inline-block;
+    padding: 10px;
+    transition: color 0.5s;
+}
+
+.selecticon:hover {color: #212121; text-decoration: underline; }
+
+@media (min-width: 720px) {
+  
+  .selecticon { font-size: 1.8rem; padding: 8px;} 
+  
+}
+
+@media (max-width: 330px) {
+  
+  .selecticon { font-size: 1rem; padding: 8px;} 
+  
+}
+
+#icontab {text-align: center; width: 100%; z-index: 2; cursor: pointer;}
+
+
+#maintab 
+{   font-size: 1.5em; 
+    line-height: 1.5; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #bababa; 
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: color 0.5s;
+    cursor: pointer;
+    
+}
+
+#maintab:hover {color: #212121; text-decoration: underline; }
+
+
+
+#maintabframe 
+{   
+    float: right;
+    padding-right: 16%;
+}
+
+@media (min-width: 720px) {
+    #maintab { font-size: 2.2rem;}  
+}
+
+#footermain{
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    color: #bababa;
+    font-weight: 300;
+    background: #eaeaea;
+    
+
+}
+
+#beforefooter{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    bottom: 0;
+    
+    background: #f1f1f1;
+    
+    
+
+}
+
+
+
+#logoimage 
+{    
+    top: 10px;
+    left: 16%; 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+
+#logotitle 
+{   
+    font-size: 1.7em; 
+    line-height: 1.6; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #bababa; 
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    transition: color 0.5s;
+    left: 15%;
+    top: 5px;
+    display: inline;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+
+#logotitle:hover{
+    color: #212121;
+   
+}
+
+@media (min-width: 720px) {
+  
+  #logotype { font-size: 3rem; padding: 8px;}
+  
+  
+}
+
+@media (max-width: 720px) {
+  
+  
+    #logotitle{ display: none;} 
+    #logoimage{position: absolute; left: 5%;}
+    #maintabframe{float: right; padding-right: 5%;}
+   
+  
+}
+
+#headerpart{
+    padding-bottom: 5px;
+}
+
+#controlpanel{
+     position: fixed; background: #eaeaea; width: 100%; z-index: 2; 
+    
+}
+#topbar{
+     position: fixed; background: #ffffff; width: 100%; z-index: 90; height:100%;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.9);
+       
+    
+}
+
+#introtitle{
+    font-size: 3em; 
+    line-height: 1; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    
+    
+    color: #ffffff; 
+    
+    
+    position: relative;
+    
+    z-index: 11;
+    transition: color 0.5s;
+    left: 5%;
+    top: 175px;
+    padding-bottom: 20px;
+    display: default;
+    cursor: default;
+}
+
+#introtype{
+    display: block;
+    padding-bottom: 20px;
+}
+
+#introbase{
+    font-size: 4em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #ffffff; 
+    display: inline;
+    top: 100px;
+    z-index: 11;
+    transition: color 0.5s;
+    left: 5%;
+    display: default;
+    position: relative;
+    cursor: default;
+}
+
+#closeicon{
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    font-size: 2em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #ffffff;
+    transition: 0.5s;
+    display: block;
+    cursor: pointer;
+}
+
+#closeicon:hover{
+    text-decoration: underline;
+    
+}
+
+a{
+    color: #bababa;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #212121;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #212121;
+    background-color: white;
+}
+
+#mainbody{
+    padding-top: 100px;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    
+}
+
+
+
+.thumbnail{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 12px;
+    margin-top: 16px;   
+    text-align: left;
+       
+}
+
+#thumbnailtext{
+    z-index: 10;
+    font-size: 1.5em; 
+    line-height: 1.3;
+    margin: 0%;
+    height: 92.5%;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 300; 
+    color: #f1f1f1;
+}
+
+#thumbnailtext:hover{
+    
+    color: #ffffff;
+
+}
+
+
+
+.thumbnailclass{
+    background-image: url("img/temp.jpg");
+    transition: background-image 1s;
+}
+
+
+.thumbnailclass:hover{
+    background-image: url("img/tempc.jpg");
+}
+
+
+
+#caption{
+    font-size: 0.5em;
+    
+    line-height: 1.5;
+    padding-top: 5px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+#captionnormal{
+    font-size: 0.8em;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-weight: 100;
+    font-family: 'Halant', serif;
+    color: #212121;
+}
+
+
+@media (max-width: 720px) {
+  
+  
+    .thumbnail{
+        width: 100%;
+        height: 180px;
+        margin: 0px;
+        padding-left: 0px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    
+    #thumbnailtext{
+        padding: 10px;
+        padding-top: 20px;
+
+    }
+    
+    #caption{
+    font-size: 0.8em;
+}
+  
+}
+
+#footerleft{
+    margin-left: 7.5%;
+    margin-top: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.5em;
+    position: fixed;
+}
+
+#footerright{
+    right: 7.5%;
+    margin-top: 7px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    position: fixed;
+    text-align: right;
+    float: right;
+    
+}
+
+#shareicon{
+    color: #bababa;
+    margin-left: 15px;
+}
+
+#shareicon:hover{
+    color: #212121;
+}
+
+#sharetext{
+    display: inline;
+    font-size: 0.7em;
+}
+
+#loading {
+    position: fixed; width: 100%; height: 100%; background: url(img/loading.gif) no-repeat center; z-index: 99; background-color: rgba(0, 0, 0, 0.7);
+}
+
+#breadcrumb 
+{   font-size: 0.8em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #212121; 
+    display: inline-block;
+    padding: 5px;
+    padding-left: 8%;
+    transition: color 0.5s;
+}
+
+#breadcrumbdisable 
+{   font-size: 0.8em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #bababa; 
+    display: inline-block;
+    padding: 5px;
+    transition: color 0.5s;
+}
+
+#breadcrumb:hover {color: #212121; text-decoration: underline; }
+
+#fullimage{
+    width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+  
+  #breadcrumb { padding-left: 5%;}
+    
+  #footerleft{margin-left: 5%;}
+
+  #footerright{right: 5%; margin-top: 10px;}
+    
+#fullimage{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 15px;
+}    
+  
+}
+
+#breadcrumbtab {text-align: left; width: 100%; z-index: 2; cursor: pointer;}
+
+#projecttitle{
+    font-size: 2em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #212121; 
+    display: block;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    
+    
+}
+
+#projectcaption{
+    font-size: 1em; 
+    line-height: 1.6em; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #212121; 
+    display: block;
+    padding: 5px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    
+    
+}
+
+#halftext{
+    text-align: left;
+    margin-bottom: 20px;
+    width: 34.5%;
+    padding: 7.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align:middle;
+    
+    
+}
+
+#fulltext{
+     
+    display: block;
+    
+    padding-left: 0px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    text-align: left;
+    
+}
+
+#textback{
+    display: block;
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+#halfimage{
+    text-align: left;
+    margin-bottom: 20px;
+    width: 34.5%;
+    padding: 7.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align:middle;
+    
+}
+
+
+#quotation{
+    display: block;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em; 
+    line-height: 1.4; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 300; 
+    color: #212121; 
+}
+
+#header1, #header2, #header3{
+    font-family: 'Roboto Slab', serif; 
+    color: #212121; 
+    display: block;
+}
+
+#header1{
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 7.5px;
+}
+
+#header2{
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+#projectlink{
+    position: fixed;
+    right: 7.5%;
+    top: 50px;
+    padding: 12.5px;
+    font-size: 0.9em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #ffffff; 
+    background-color: #13e5cc;
+    z-index: 50;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    transition: 0.3s;
+    
+}
+
+#projectlink:hover{
+    color: #212121;
+    background-color: white;
+    box-shadow: 5px 5px 50px #aaaaaa;
+
+}
+
+#projectlinkdisable{
+    position: fixed;
+    right: 7.5%;
+    top: 50px;
+    padding: 12.5px;
+    font-size: 0.9em; 
+    line-height: 1.3; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400; 
+    color: #ffffff; 
+    background-color: #aaaaaa;
+    z-index: 50;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #aaaaaa;
+    transition: 0.3s;
+    
+}
+
+#links{
+    font-size: 1em; 
+    line-height: 1.3; 
+    font-family: 'Halant', serif; 
+    font-weight: 400; 
+    color: #212121; 
+    z-index: 50;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#linksdisabled{
+    font-size: 1em; 
+    line-height: 1.3; 
+    font-family: 'Halant', serif; 
+    font-weight: 400; 
+    color: #212121; 
+    z-index: 50;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#linksdisabled:hover{
+    text-decoration: none;
+}
+
+#links:hover{
+    color: #212121;
+}
+
+@media (max-width: 720px) {
+  
+    #fulltext, #halfimage, #halftext, #projecttitle, #projectcaption, #quotation{
+        display: block;
+        padding: 0px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    
+    #projecttitle{
+        font-size: 1.8em;
+    }
+    
+    #header1{
+        font-size: 1.5em;
+    }
+    
+    #projectcaption{
+        font-size: 1em;
+    }
+    
+    body{
+        font-size: 1.2em;
+    }
+    
+    #projectlink, #projectlinkdisable{
+        right: 5%;
+        top: 42.5px;
+    }
+  
+}
+
+
+
+#all{
+    color: #212121;
+}
+
+#about, #skills, #news, #awards, #contact{
+    padding-top: 100px;
+}
+
