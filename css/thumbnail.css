@@ -1,0 +1,187 @@
+#mumbaidata, #phonebook, #drs, #iittea, #hologram, #dataexplorer, #lookup, #cheese, #laika, #aai, #keepwatch, #user, #vda, #service, #nota, #vayu, #typot, #jaltarang, #akor, #iitbhf, #olap, #arch{
+            transition: opacity 1s, background-image 1s, display 1s, visibility 1s;
+            text-decoration: none;
+        }
+
+
+#mumbaidata{
+    background-image: url("img/mumbaidata_blur.jpeg");
+    
+}
+
+#mumbaidata:hover{
+    background-image: url("img/mumbaidata.jpeg");
+}
+
+#phonebook{
+    background-image: url("img/phonebook_blur.jpeg");
+    
+}
+
+#phonebook:hover{
+    background-image: url("img/phonebook.jpeg");
+}
+
+#drs{
+    background-image: url("img/drs_blur.jpeg");
+    
+}
+
+#drs:hover{
+    background-image: url("img/drs.jpeg");
+}
+
+#iittea{
+    background-image: url("img/iittea_blur.jpeg");
+    
+}
+
+#iittea:hover{
+    background-image: url("img/iittea.jpeg");
+}
+
+#hologram{
+    background-image: url("img/hologram_blur.jpeg");
+    
+}
+
+#hologram:hover{
+    background-image: url("img/hologram.jpeg");
+}
+
+#dataexplorer{
+    background-image: url("img/dataexplorer_blur.jpeg");
+    
+}
+
+#dataexplorer:hover{
+    background-image: url("img/dataexplorer.jpeg");
+}
+
+#lookup{
+    background-image: url("img/lookup_blur.jpeg");
+    
+}
+
+#lookup:hover{
+    background-image: url("img/lookup.jpeg");
+}
+
+#cheese{
+    background-image: url("img/cheese_blur.jpeg");
+    
+}
+
+#cheese:hover{
+    background-image: url("img/cheese.jpeg");
+}
+
+
+#laika{
+    background-image: url("img/laika_blur.jpeg");
+    
+}
+
+#laika:hover{
+    background-image: url("img/laika.jpeg");
+}
+
+
+#aai{
+    background-image: url("img/aai_blur.jpeg");
+    
+}
+
+#aai:hover{
+    background-image: url("img/aai.jpeg");
+}
+
+#keepwatch{
+    background-image: url("img/keepwatch_blur.jpeg");
+    
+}
+
+#keepwatch:hover{
+    background-image: url("img/keepwatch.jpeg");
+}
+
+#user{
+    background-image: url("img/user_blur.jpeg");
+    
+}
+
+#user:hover{
+    background-image: url("img/user.jpeg");
+}
+
+#vda{
+    background-image: url("img/vda_blur.jpeg");
+    
+}
+
+#vda:hover{
+    background-image: url("img/vda.jpeg");
+}
+
+#service{
+    background-image: url("img/service_blur.jpeg");
+    
+}
+
+#service:hover{
+    background-image: url("img/service.jpeg");
+}
+
+#nota{
+    background-image: url("img/nota_blur.jpeg");
+    
+}
+
+#nota:hover{
+    background-image: url("img/nota.jpeg");
+}
+
+#vayu{
+    background-image: url("img/vayu_blur.jpeg");
+    
+}
+
+#vayu:hover{
+    background-image: url("img/vayu.jpeg");
+}
+
+#typot{
+    background-image: url("img/typot_blur.jpeg");
+    
+}
+
+#typot:hover{
+    background-image: url("img/typot.jpeg");
+}
+
+#iitbhf{
+    background-image: url("img/iitbhf_blur.jpeg");
+    
+}
+
+#iitbhf:hover{
+    background-image: url("img/iitbhf.jpeg");
+}
+
+#olap{
+    background-image: url("img/olap_blur.jpeg");
+    
+}
+
+#olap:hover{
+    background-image: url("img/olap.jpeg");
+}
+
+#arch{
+    background-image: url("img/arch_blur.jpeg");
+    
+}
+
+#arch:hover{
+    background-image: url("img/arch.jpeg");
+}

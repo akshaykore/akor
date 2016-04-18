@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AKOR - Portfolio</title>
+    <link rel="shortcut icon" href="assets/logo/ico.ico">
+    <meta charset=utf-8 />
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Halant:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/thumbnail.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/loading.js"></script>
+    
+    <script type="text/javascript">
+
+        var hoverimage = ["img/mumbaidata.jpeg", "img/phonebook.jpeg","img/drs.jpeg", "img/iittea.jpeg", "img/hologram.jpeg", "img/dataexplorer.jpeg", "img/lookup.jpeg", "img/cheese.jpeg", "img/laika.jpeg", "img/aai.jpeg", "img/keepwatch.jpeg", "img/user.jpeg", "img/vda.jpeg", "img/service.jpeg", "img/nota.jpeg", "img/vayu.jpeg", "img/typot.jpeg", "img/iitbhf.jpeg", "img/olap.jpeg", "img/arch.jpeg"];
+        
+        function preloader(){
+            for(var i = 0; i<hoverimage.length; i++){
+                var k = new Image;
+                k.src = "css/" + hoverimage[i];
+            }
+        }
+        
+        preloader();
+        
+        
+
+</script>
+</head>
+    
+<body>
+    <div id="loading"></div>
+    <div id="topbar" >
+        <div id="closeicon" onclick="introclose();">x</div>
+         <div id="introbase"><b>Akshay Kore</b> | Portfolio</div>    
+        <div id="introtitle">
+            <a id="introtype" href="#" >Work</a>
+            <a id="introtype" href="info.html#about">Info</a>
+        </div>
+        
+        
+        
+    </div>
+    <div id="controlpanel">
+        <div class="twelve columns" id="headerpart">
+        
+            <div class="six columns" onclick="introopen();">
+           
+                <div id="logoimage"  >
+                    <img src="assets/logo/logo.svg" height="30px" width="30px">
+                </div>
+                <div id="logotitle">
+                    AKOR
+                </div>
+                
+              
+        </div>
+             
+        
+    
+        <div class="six columns" >
+            <div id="maintabframe">
+                <div id="maintab" style="color:#212121;">Work</div>
+                <a href="info.html#about" id="maintab">Info</a> 
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="icontab" class="twelve columns">
+        <div class="selecticon" id="all" onclick="changecolorhome('all'); setTimeout(showall, 700); eraseallthumb(); " title="20 Projects">All</div>
+        <div class="selecticon" id="dataviz" onclick="changecolorhome('dataviz');setTimeout(dataviz, 700); eraseallthumb(); " title="6 Projects">DataViz</div>
+        <div class="selecticon" id="uiux" onclick="changecolorhome('uiux'); setTimeout(uiux, 700); eraseallthumb();" title="14 Projects">UI/UX</div>
+        <div class="selecticon" id="newmedia" onclick="changecolorhome('newmedia'); setTimeout(newmedia, 700); eraseallthumb(); " title="10 Projects">New Media</div>
+        <div class="selecticon" id="other" onclick="changecolorhome('other'); setTimeout(other, 700); eraseallthumb(); " title="7 Projects">Other</div>
+        
+    </div>
+        
+    
+    
+    
+    </div>
+   
+
+    <div id="shufflecontainer">
+        
+        
+     <div id="mainbody">
+          <a href="mumbaidata.html" id="mumbaidata" class="thumbnail">
+            <div id="thumbnailtext">
+                MumbaiData
+                <p id="caption">An Interactive Open Data Visualization tool for Mumbai City</p>
+            </div>           
+        </a>
+         
+         <a href="phonebook.html" id="phonebook" class="thumbnail">
+            <div id="thumbnailtext">
+                PhonBk
+                <p id="caption">A smarter context based phonebook <br>Collaboration with Microsoft Research</p>
+            </div>            
+        </a>
+         
+         <a href="drs.html" id="drs" class="thumbnail">
+            <div id="thumbnailtext">
+                VR Kolkata
+                <p id="caption">A virtual reality immersive exploration of the city of Kolkata</p>
+            </div>            
+        </a>
+         
+         <a href="iittea.html" id="iittea" class="thumbnail">
+            <div id="thumbnailtext">
+                IIT Tea
+                <p id="caption">An interactive tool to visualize Chai(tea) shops in the institute</p>
+            </div>
+        </a>
+         
+         <a href="hologram.html" id="hologram" class="thumbnail">
+            <div id="thumbnailtext">
+                Holo-interface
+                <p id="caption">A Holographic Interface for exhibits<br>Research collaboration with CSMVS</p>
+            </div>
+        </a>
+         
+         <a  href="olap.html"  id="olap" class="thumbnail">
+            <div id="thumbnailtext">
+                O-LAP
+                <p id="caption">Parametric Furniture Design and Fabrication for Urban Homes</p>
+            </div>
+        </a>
+         
+         <a href="dataexplorer.html" id="dataexplorer" class="thumbnail">
+            <div id="thumbnailtext">
+                Networtifact
+                <p id="caption">Gesture controlled explorer for artifacts<br>Research collaboration with CSMVS</p>
+            </div>
+        </a>
+         
+         <a href="lookup.html" id="lookup" class="thumbnail">
+            <div id="thumbnailtext">
+                Lookup Mumbai
+                <p id="caption">Research internship for a fulldome immersive installation with JSW</p>
+            </div>
+        </a>
+         
+         <a href="cheese.html" id="cheese" class="thumbnail">
+            <div id="thumbnailtext">
+                Cheese
+                <p id="caption">A Smart Media Exploration. Embedding information in existing media</p>
+            </div>
+        </a>
+         
+         <a href="laika.html" id="laika" class="thumbnail">
+            <div id="thumbnailtext">
+                Laikas ark
+                <p id="caption">Lenovo Game Design Third Prize<br>Laika, the dog saves the world</p>
+            </div>
+        </a>
+         
+         <a href="aai.html" id="aai" class="thumbnail">
+            <div id="thumbnailtext">
+                Aai
+                <p id="caption">A community wide healthcare monitoring service using wearables</p>
+            </div>
+        </a>
+         
+         <a href="keepwatch.html" id="keepwatch" class="thumbnail">
+            <div id="thumbnailtext">
+                Keep watch
+                <p id="caption">Security system for the elderly<br>using IOTs and wearables</p>
+            </div>
+        </a>
+         
+         <a href="user.html" id="user" class="thumbnail">
+            <div id="thumbnailtext">
+                User Studies
+                <p id="caption">Extensive User Studies on Doctors and Patients for a Healthcare Startup</p>
+            </div>
+        </a>
+         
+         <a href="vda.html" id="vda" class="thumbnail">
+            <div id="thumbnailtext">
+                Vikasdilawari.in
+                <p id="caption">Design and development of a portfolio website for Architect Vikas Dilawari</p>
+            </div>
+        </a>
+         
+         <a href="service.html" id="service" class="thumbnail">
+            <div id="thumbnailtext">
+                IITB Placements
+                <p id="caption">A Service Design project for the IIT Bombay placements process</p>
+            </div>
+        </a>
+         
+         <a href="nota.html" id="nota" class="thumbnail">
+            <div id="thumbnailtext">
+                NOTA Infographic
+                <p id="caption">Information design for data of NOTA votes at the National Elections</p>
+            </div>
+        </a>
+         
+         <a href="vayu.html" id="vayu" class="thumbnail">
+            <div id="thumbnailtext">
+                Vayu
+                <p id="caption">An Interactive installation for India HCI at IIT Delhi</p>
+            </div>
+        </a>
+         
+         <a href="typot.html" id="typot" class="thumbnail">
+            <div id="thumbnailtext">
+                Typot
+                <p id="caption">An Interactive installation for Typoday 2015 at IIT Bombay</p>
+            </div>
+        </a>
+         
+         <a  href="iitbhf.html"  id="iitbhf" class="thumbnail">
+            <div id="thumbnailtext">
+                IITB Heritage Fund
+                <p id="caption">Design and Brand Guidelines for the <br>IIT Bombay Heritage fund website</p>
+            </div>
+        </a>
+         
+         
+         <a  href="arch.html"  id="arch" class="thumbnail">
+            <div id="thumbnailtext">
+                Before 2014
+                <p id="caption">Pre-2014 Works<br>Projects and Competitions</p>
+            </div>
+        </a>
+         
+         
+        
+        
+        
+        </div>
+        
+    
+    <br><br>
+    <a id="breadcrumb" style="font-size: 0.3em;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+    This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Akshay Kore is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License</a>   
+        
+        
+    
+        
+
+    
+        
+        
+    </div>
+    
+    
+    
+    <div id="footermain" class="twelve columns">
+        <div id="footerleft" class="six columns">
+            © Akshay Kore
+        </div>
+        <div id="footerright" class="six columns">
+            Share
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//akshaykore.github.io/akor/" id="shareicon" target="_blank"><i class="fa fa-facebook-square"></i></a> 
+            <a href="https://twitter.com/home?status=check%20out%20%40akshaykore%20's%20awesome%20work%20http%3A//akshaykore.github.io/akor/" id="shareicon" target="_blank"><i class="fa fa-twitter-square"></i></a> 
+            
+        </div>
+    </div>
+    
+    
+    <script>introclose();</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68980259-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+    
+</html>
