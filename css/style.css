@@ -237,7 +237,6 @@ a:active{
 }
 
 
-
 .thumbnail{
     display: inline-block;
     width: 250px;
@@ -256,27 +255,19 @@ a:active{
     height: 92.5%;
     padding: 10px;
     font-family: 'Roboto Slab', serif; 
-    font-weight: 300; 
-    color: #f1f1f1;
+    font-weight: 400; 
+    color: #212121;
+    background-color: rgba(255, 255, 255, 0.6);
+   
 }
 
 #thumbnailtext:hover{
     
     color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
 
 }
 
-
-
-.thumbnailclass{
-    background-image: url("img/temp.jpg");
-    transition: background-image 1s;
-}
-
-
-.thumbnailclass:hover{
-    background-image: url("img/tempc.jpg");
-}
 
 
 
